@@ -33,6 +33,7 @@ def compute(array):
             guess = array[middle_index]
             print(f'AI Guess: {guess}')
 
+            # increment the count
             count += 1
 
             feedback = None
